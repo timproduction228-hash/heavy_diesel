@@ -22,6 +22,7 @@ public class ModBlocks {
         .onRegister(BlockStressValues.setGeneratorSpeed(DieselEngineBlockEntity.GENERATED_RPM))
         .onRegister(block -> BlockStressValues.CAPACITIES.register(block, () -> DieselEngineBlockEntity.STRESS_CAPACITY))
         .item()
+        .build()
         .register();
 
     /** Front half of the engine: placed automatically, no item and no drops. */
