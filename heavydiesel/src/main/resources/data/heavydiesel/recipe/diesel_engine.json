@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "IPI", "FCF", "ISI" ],
+  "key": {
+    "I": { "item": "create:iron_sheet" },
+    "P": { "item": "minecraft:piston" },
+    "F": { "item": "create:fluid_pipe" },
+    "C": { "item": "create:brass_casing" },
+    "S": { "item": "create:shaft" }
+  },
+  "result": { "id": "heavydiesel:diesel_engine", "count": 1 }
+}

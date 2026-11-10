@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "heavydiesel"
+version = "1.0.0"
+displayName = "Heavy Diesel"
+authors = "you"
+description = '''Diesel engines for Create that burn diesel from Create: The Factory Must Grow.'''
+
+[[dependencies.heavydiesel]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.heavydiesel]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.heavydiesel]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.6,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.heavydiesel]]
+modId = "tfmg"
+type = "required"
+versionRange = "[1.3,)"
+ordering = "AFTER"
+side = "BOTH"

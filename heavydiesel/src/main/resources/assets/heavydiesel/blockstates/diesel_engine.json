@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "heavydiesel:block/diesel_engine_back"
+    },
+    "facing=south": {
+      "model": "heavydiesel:block/diesel_engine_back",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "heavydiesel:block/diesel_engine_back",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "heavydiesel:block/diesel_engine_back",
+      "y": 270
+    }
+  }
+}
